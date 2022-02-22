@@ -58,6 +58,7 @@ a:hover {
 .container {
   height: 100vh;
   width: 100%;
+  min-width: 735px;
   position: relative;
 }
 

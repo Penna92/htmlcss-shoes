@@ -1,0 +1,52 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Rubik Mono One', sans-serif;    
+}
+
+/* header */
+header {
+    text-align: center;
+}
+
+nav {
+    height: 150px;
+    width: 100%;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* background-color: red; */
+}
+
+nav ul li {
+    display: block;
+    line-height: 150px;
+    float: right;
+    margin: 0 30px;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: black;
+    font-size: 36px;
+    text-decoration: none;
+    line-height: 70px;        
+    background-color: white;
+    height: 70px;
+    width: 70px; 
+    border-radius: 50%;   
+    font-weight: bold; 
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+}
+

@@ -59,6 +59,7 @@ a:hover {
   height: 100vh;
   width: 100%;
   min-width: 735px;
+  min-height: 420px;
   position: relative;
 }
 
